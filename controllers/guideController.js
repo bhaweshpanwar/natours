@@ -4,7 +4,7 @@ const catchAsync = require('./../utils/catchAsync');
 
 exports.addGuideToTour = catchAsync(async (req, res, next) => {
   const { tourId, guideId } = req.body;
-  console.log(tourId, guideId);
+  // console.log(tourId, guideId);
 
   const query = `
       INSERT INTO public."tour_guides" (tour_id, guide_id) 

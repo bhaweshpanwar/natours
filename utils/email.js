@@ -69,7 +69,7 @@ module.exports = class Email {
       };
 
       await this.newTransport().sendMail(mailOptions);
-      console.log('✅ Email sent successfully!');
+      // console.log('✅ Email sent successfully!');
     } catch (err) {
       console.error('❌ Error sending email:', err);
       throw new Error('Email sending failed!'); // Change this if you have a custom error handler

@@ -91,7 +91,7 @@ exports.signup = catchAsync(async (req, res, next) => {
   });
 
   const url = `${req.protocol}://${req.get('host')}/me`;
-  console.log(url);
+  // console.log(url);
   await new Email(result, url).sendWelcome();
 
   createSendToken(result, 201, res);
@@ -239,7 +239,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
   const { resetToken, hashedToken, expirationTime } =
     createPasswordResetToken();
 
-  console.log({ resetToken, hashedToken, expirationTime });
+  // console.log({ resetToken, hashedToken, expirationTime });
 
   // 3) Update the database with the hashed token and expiration time
   const updatedUser = await User.updatePasswordResetToken(
@@ -294,7 +294,7 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
 
   const user = result.rows[0];
 
-  console.log(req.body.password, req.body.passwordConfirm);
+  // console.log(req.body.password, req.body.passwordConfirm);
 
   // Ensure passwords match
   if (req.body.password !== req.body.passwordConfirm) {
@@ -364,7 +364,7 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
     currentPassword,
     currentUser.password
   );
-  console.log(isPasswordCorrect);
+  // console.log(isPasswordCorrect);
 
   if (!isPasswordCorrect) {
     return next(new AppError('Wrong old password.', 401));

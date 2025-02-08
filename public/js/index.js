@@ -57,7 +57,7 @@ const displayMap = (locations) => {
 const login = async (email, password) => {
   try {
     const res = await axios.post(
-      'http://localhost:7700/api/v1/users/login',
+      '/api/v1/users/login',
       {
         email: email,
         password: password,
@@ -85,7 +85,7 @@ const login = async (email, password) => {
 
 const logout = async () => {
   try {
-    const res = await axios.get('http://localhost:7700/api/v1/users/logout');
+    const res = await axios.get('/api/v1/users/logout');
     if (res.data.status === 'success') {
       window.location.reload(); // corrected the reload method
     }
@@ -98,8 +98,8 @@ const updateSettings = async (data, type) => {
   try {
     const url =
       type === 'password'
-        ? 'http://localhost:7700/api/v1/users/updatePassword'
-        : 'http://localhost:7700/api/v1/users/updateMe';
+        ? '/api/v1/users/updatePassword'
+        : '/api/v1/users/updateMe';
 
     const res = await axios({
       method: 'PATCH',
@@ -131,10 +131,8 @@ const showAlert = (type, msg) => {
 const bookTour = async (tourId) => {
   try {
     // 1) Get checkout session from API
-    const session = await axios(
-      `http://localhost:7700/api/v1/bookings/checkout-session/${tourId}`
-    );
-    console.log(session);
+    const session = await axios(`/api/v1/bookings/checkout-session/${tourId}`);
+    // console.log(session);
 
     // 2) Create checkout form + chanre credit card
     await stripe.redirectToCheckout({

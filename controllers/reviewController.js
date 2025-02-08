@@ -16,7 +16,7 @@ exports.createReview = catchAsync(async (req, res, next) => {
     rating,
   } = req.body;
 
-  console.log({ tourId, userId, review, rating });
+  // console.log({ tourId, userId, review, rating });
 
   // Validate required fields and rating range
   if (!review || !rating || !tourId || !userId) {
