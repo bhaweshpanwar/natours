@@ -1,0 +1,140 @@
+[
+  {
+    "tour_id": "dea84aa4-8d2b-4deb-87ca-ddba2e656de4",
+    "guide_id": "13f2ccd0-e63b-44e8-bb99-df17666848db",
+    "tour_name": "The Sea Explorer",
+    "guide_name": "Miyah Myles"
+  },
+  {
+    "tour_id": "dea84aa4-8d2b-4deb-87ca-ddba2e656de4",
+    "guide_id": "7f90cdbb-422a-48f1-8c0b-575577634698",
+    "tour_name": "The Sea Explorer",
+    "guide_name": "Jennifer Hardy"
+  },
+  {
+    "tour_id": "cc83baba-6a01-4c50-8a21-6de30b1b7476",
+    "guide_id": "3ef8b06e-fcd5-4df1-8e10-f596c94cb8ed",
+    "tour_name": "The Forest Hiker",
+    "guide_name": "Steve T. Scaife"
+  },
+  {
+    "tour_id": "cc83baba-6a01-4c50-8a21-6de30b1b7476",
+    "guide_id": "92abeddd-44a8-43de-bfd0-8c96593329ae",
+    "tour_name": "The Forest Hiker",
+    "guide_name": "Kate Morrison"
+  },
+  {
+    "tour_id": "cc83baba-6a01-4c50-8a21-6de30b1b7476",
+    "guide_id": "ecf3913f-3189-4157-8164-f0422360ee12",
+    "tour_name": "The Forest Hiker",
+    "guide_name": "Leo Gillespie"
+  },
+  {
+    "tour_id": "82e23812-9a4c-405a-80fd-9caa67af7408",
+    "guide_id": "3ef8b06e-fcd5-4df1-8e10-f596c94cb8ed",
+    "tour_name": "The Snow Adventurer",
+    "guide_name": "Steve T. Scaife"
+  },
+  {
+    "tour_id": "82e23812-9a4c-405a-80fd-9caa67af7408",
+    "guide_id": "501d8d3b-bac5-46e9-bc42-5ec38a2a8218",
+    "tour_name": "The Snow Adventurer",
+    "guide_name": "Ben Hadley"
+  },
+  {
+    "tour_id": "82e23812-9a4c-405a-80fd-9caa67af7408",
+    "guide_id": "7f90cdbb-422a-48f1-8c0b-575577634698",
+    "tour_name": "The Snow Adventurer",
+    "guide_name": "Jennifer Hardy"
+  },
+  {
+    "tour_id": "17358bcf-9ead-4a16-acff-e3ebeef92694",
+    "guide_id": "9ef864c0-fe2c-4f22-8237-25565435768e",
+    "tour_name": "The Park Camper",
+    "guide_name": "Aarav Lynn"
+  },
+  {
+    "tour_id": "17358bcf-9ead-4a16-acff-e3ebeef92694",
+    "guide_id": "501d8d3b-bac5-46e9-bc42-5ec38a2a8218",
+    "tour_name": "The Park Camper",
+    "guide_name": "Ben Hadley"
+  },
+  {
+    "tour_id": "17358bcf-9ead-4a16-acff-e3ebeef92694",
+    "guide_id": "92abeddd-44a8-43de-bfd0-8c96593329ae",
+    "tour_name": "The Park Camper",
+    "guide_name": "Kate Morrison"
+  },
+  {
+    "tour_id": "87785c0a-a6ce-4e7d-873d-374620818dcc",
+    "guide_id": "13f2ccd0-e63b-44e8-bb99-df17666848db",
+    "tour_name": "The City Wanderer",
+    "guide_name": "Miyah Myles"
+  },
+  {
+    "tour_id": "87785c0a-a6ce-4e7d-873d-374620818dcc",
+    "guide_id": "92abeddd-44a8-43de-bfd0-8c96593329ae",
+    "tour_name": "The City Wanderer",
+    "guide_name": "Kate Morrison"
+  },
+  {
+    "tour_id": "7b0dedf1-908a-4114-adbd-04b87816b9f1",
+    "guide_id": "9ef864c0-fe2c-4f22-8237-25565435768e",
+    "tour_name": "The Sports Lover",
+    "guide_name": "Aarav Lynn"
+  },
+  {
+    "tour_id": "7b0dedf1-908a-4114-adbd-04b87816b9f1",
+    "guide_id": "ecf3913f-3189-4157-8164-f0422360ee12",
+    "tour_name": "The Sports Lover",
+    "guide_name": "Leo Gillespie"
+  },
+  {
+    "tour_id": "7b0dedf1-908a-4114-adbd-04b87816b9f1",
+    "guide_id": "7f90cdbb-422a-48f1-8c0b-575577634698",
+    "tour_name": "The Sports Lover",
+    "guide_name": "Jennifer Hardy"
+  },
+  {
+    "tour_id": "1961b751-2eeb-441c-bff4-8bfab6dbbafb",
+    "guide_id": "3ef8b06e-fcd5-4df1-8e10-f596c94cb8ed",
+    "tour_name": "The Star Gazer",
+    "guide_name": "Steve T. Scaife"
+  },
+  {
+    "tour_id": "1961b751-2eeb-441c-bff4-8bfab6dbbafb",
+    "guide_id": "ecf3913f-3189-4157-8164-f0422360ee12",
+    "tour_name": "The Star Gazer",
+    "guide_name": "Leo Gillespie"
+  },
+  {
+    "tour_id": "d286a264-b808-4ff7-a3a9-6758ff23bd75",
+    "guide_id": "9ef864c0-fe2c-4f22-8237-25565435768e",
+    "tour_name": "The Northern Lights",
+    "guide_name": "Aarav Lynn"
+  },
+  {
+    "tour_id": "d286a264-b808-4ff7-a3a9-6758ff23bd75",
+    "guide_id": "92abeddd-44a8-43de-bfd0-8c96593329ae",
+    "tour_name": "The Northern Lights",
+    "guide_name": "Kate Morrison"
+  },
+  {
+    "tour_id": "d286a264-b808-4ff7-a3a9-6758ff23bd75",
+    "guide_id": "501d8d3b-bac5-46e9-bc42-5ec38a2a8218",
+    "tour_name": "The Northern Lights",
+    "guide_name": "Ben Hadley"
+  },
+  {
+    "tour_id": "93fea5d9-693c-40ac-b469-1ca8d6c1896c",
+    "guide_id": "13f2ccd0-e63b-44e8-bb99-df17666848db",
+    "tour_name": "The Wine Taster",
+    "guide_name": "Miyah Myles"
+  },
+  {
+    "tour_id": "93fea5d9-693c-40ac-b469-1ca8d6c1896c",
+    "guide_id": "501d8d3b-bac5-46e9-bc42-5ec38a2a8218",
+    "tour_name": "The Wine Taster",
+    "guide_name": "Ben Hadley"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "user_id": "6d22d3b5-2261-4f0f-8551-0609769da191",
+    "tour_id": "dea84aa4-8d2b-4deb-87ca-ddba2e656de4",
+    "review": "Cras mollis nisi parturient mi nec aliquet suspendisse sagittis eros condimentum scelerisque taciti mattis praesent feugiat eu nascetur a tincidunt",
+    "rating": 5
+  },
+  {
+    "user_id": "6d22d3b5-2261-4f0f-8551-0609769da191",
+    "tour_id": "82e23812-9a4c-405a-80fd-9caa67af7408",
+    "review": "Tempus curabitur faucibus auctor bibendum duis gravida tincidunt litora himenaeos facilisis vivamus vehicula potenti semper fusce suspendisse sagittis!",
+    "rating": 4
+  },
+  {
+    "user_id": "6d22d3b5-2261-4f0f-8551-0609769da191",
+    "tour_id": "87785c0a-a6ce-4e7d-873d-374620818dcc",
+    "review": "Convallis turpis porttitor sapien ad urna efficitur dui vivamus in praesent nulla hac non potenti!",
+    "rating": 5
+  },
+  {
+    "user_id": "6d22d3b5-2261-4f0f-8551-0609769da191",
+    "tour_id": "93fea5d9-693c-40ac-b469-1ca8d6c1896c",
+    "review": "Habitasse scelerisque class quam primis convallis integer eros congue nulla proin nam faucibus parturient.",
+    "rating": 4
+  },
+  {
+    "user_id": "a6df83f2-ae97-414b-b49f-c0a55c44de77",
+    "tour_id": "93fea5d9-693c-40ac-b469-1ca8d6c1896c",
+    "review": "Cras consequat fames faucibus ac aliquam dolor a euismod porttitor rhoncus venenatis himenaeos montes tristique pretium libero nisi!",
+    "rating": 5
+  },
+  {
+    "user_id": "a6df83f2-ae97-414b-b49f-c0a55c44de77",
+    "tour_id": "d286a264-b808-4ff7-a3a9-6758ff23bd75",
+    "review": "Laoreet justo volutpat per etiam donec at augue penatibus eu facilisis lorem phasellus ipsum tristique urna quam platea.",
+    "rating": 5
+  },
+  {
+    "user_id": "a6df83f2-ae97-414b-b49f-c0a55c44de77",
+    "tour_id": "1961b751-2eeb-441c-bff4-8bfab6dbbafb",
+    "review": "Senectus lectus eleifend ex lobortis cras nam cursus accumsan tellus lacus faucibus himenaeos posuere!",
+    "rating": 5
+  },
+  {
+    "user_id": "a6df83f2-ae97-414b-b49f-c0a55c44de77",
+    "tour_id": "dea84aa4-8d2b-4deb-87ca-ddba2e656de4",
+    "review": "Pulvinar taciti etiam aenean lacinia natoque interdum fringilla suspendisse nam sapien urna!",
+    "rating": 4
+  },
+  {
+    "user_id": "140d4776-6821-4d82-ab91-00a13c9114e9",
+    "tour_id": "cc83baba-6a01-4c50-8a21-6de30b1b7476",
+    "review": "Pretium vel inceptos fringilla sit dui fusce varius gravida platea morbi semper erat elit porttitor potenti!",
+    "rating": 5
+  },
+  {
+    "user_id": "140d4776-6821-4d82-ab91-00a13c9114e9",
+    "tour_id": "82e23812-9a4c-405a-80fd-9caa67af7408",
+    "review": "Ex a bibendum quis volutpat consequat euismod vulputate parturient laoreet diam sagittis amet at blandit.",
+    "rating": 4
+  },
+  {
+    "user_id": "140d4776-6821-4d82-ab91-00a13c9114e9",
+    "tour_id": "17358bcf-9ead-4a16-acff-e3ebeef92694",
+    "review": "Auctor euismod interdum augue tristique senectus nascetur cras justo eleifend mattis libero id adipiscing amet placerat",
+    "rating": 5
+  },
+  {
+    "user_id": "140d4776-6821-4d82-ab91-00a13c9114e9",
+    "tour_id": "7b0dedf1-908a-4114-adbd-04b87816b9f1",
+    "review": "A facilisi justo ornare magnis velit diam dictumst parturient arcu nullam rhoncus nec!",
+    "rating": 4
+  },
+  {
+    "user_id": "140d4776-6821-4d82-ab91-00a13c9114e9",
+    "tour_id": "d286a264-b808-4ff7-a3a9-6758ff23bd75",
+    "review": "Porttitor ullamcorper rutrum semper proin mus felis varius convallis conubia nisl erat lectus eget.",
+    "rating": 5
+  },
+  {
+    "user_id": "ea6895a7-4647-4211-9740-9e7c13c2d220",
+    "tour_id": "cc83baba-6a01-4c50-8a21-6de30b1b7476",
+    "review": "Porttitor ullamcorper rutrum semper proin mus felis varius convallis conubia nisl erat lectus eget.",
+    "rating": 5
+  },
+  {
+    "user_id": "ea6895a7-4647-4211-9740-9e7c13c2d220",
+    "tour_id": "82e23812-9a4c-405a-80fd-9caa67af7408",
+    "review": "Semper blandit felis nostra facilisi sodales pulvinar habitasse diam sapien lobortis urna nunc ipsum orci.",
+    "rating": 5
+  },
+  {
+    "user_id": "ea6895a7-4647-4211-9740-9e7c13c2d220",
+    "tour_id": "17358bcf-9ead-4a16-acff-e3ebeef92694",
+    "review": "Neque amet vel integer placerat ex pretium elementum vitae quis ullamcorper nullam nunc habitant cursus justo!!!",
+    "rating": 5
+  },
+  {
+    "user_id": "ea6895a7-4647-4211-9740-9e7c13c2d220",
+    "tour_id": "87785c0a-a6ce-4e7d-873d-374620818dcc",
+    "review": "Sollicitudin sagittis ex ut fringilla enim condimentum et netus tristique.",
+    "rating": 5
+  },
+  {
+    "user_id": "ea6895a7-4647-4211-9740-9e7c13c2d220",
+    "tour_id": "93fea5d9-693c-40ac-b469-1ca8d6c1896c",
+    "review": "Semper tempus curae at platea lobortis ullamcorper curabitur luctus maecenas nisl laoreet!",
+    "rating": 5
+  },
+  {
+    "user_id": "817bea22-1024-4b11-9cdf-0dec23e26789",
+    "tour_id": "93fea5d9-693c-40ac-b469-1ca8d6c1896c",
+    "review": "Arcu adipiscing lobortis sem finibus consequat ac justo nisi pharetra ultricies facilisi!",
+    "rating": 5
+  },
+  {
+    "user_id": "817bea22-1024-4b11-9cdf-0dec23e26789",
+    "tour_id": "1961b751-2eeb-441c-bff4-8bfab6dbbafb",
+    "review": "Rutrum viverra turpis nunc ultricies dolor ornare metus habitant ex quis sociosqu nascetur pellentesque quam!",
+    "rating": 5
+  },
+  {
+    "user_id": "817bea22-1024-4b11-9cdf-0dec23e26789",
+    "tour_id": "7b0dedf1-908a-4114-adbd-04b87816b9f1",
+    "review": "Elementum massa porttitor enim vitae eu ligula vivamus amet imperdiet urna tristique donec mattis mus erat.",
+    "rating": 5
+  },
+  {
+    "user_id": "817bea22-1024-4b11-9cdf-0dec23e26789",
+    "tour_id": "87785c0a-a6ce-4e7d-873d-374620818dcc",
+    "review": "Fusce ullamcorper gravida libero nullam lacus litora class orci habitant sollicitudin...",
+    "rating": 5
+  },
+  {
+    "user_id": "817bea22-1024-4b11-9cdf-0dec23e26789",
+    "tour_id": "cc83baba-6a01-4c50-8a21-6de30b1b7476",
+    "review": "Varius potenti proin hendrerit felis sit convallis nunc non id facilisis aliquam platea elementum",
+    "rating": 5
+  },
+  {
+    "user_id": "817bea22-1024-4b11-9cdf-0dec23e26789",
+    "tour_id": "dea84aa4-8d2b-4deb-87ca-ddba2e656de4",
+    "review": "Sem feugiat sed lorem vel dignissim platea habitasse dolor suscipit ultricies dapibus",
+    "rating": 5
+  },
+  {
+    "user_id": "1a00b29d-1773-44c6-b74c-945a357d858b",
+    "tour_id": "cc83baba-6a01-4c50-8a21-6de30b1b7476",
+    "review": "Sem feugiat sed lorem vel dignissim platea habitasse dolor suscipit ultricies dapibus",
+    "rating": 5
+  },
+  {
+    "user_id": "1a00b29d-1773-44c6-b74c-945a357d858b",
+    "tour_id": "87785c0a-a6ce-4e7d-873d-374620818dcc",
+    "review": "Tortor dolor sed vehicula neque ultrices varius orci feugiat dignissim auctor consequat.",
+    "rating": 4
+  },
+  {
+    "user_id": "1a00b29d-1773-44c6-b74c-945a357d858b",
+    "tour_id": "1961b751-2eeb-441c-bff4-8bfab6dbbafb",
+    "review": "Felis mauris aenean eu lectus fringilla habitasse nullam eros senectus ante etiam!",
+    "rating": 5
+  },
+  {
+    "user_id": "1a00b29d-1773-44c6-b74c-945a357d858b",
+    "tour_id": "d286a264-b808-4ff7-a3a9-6758ff23bd75",
+    "review": "Blandit varius nascetur est felis praesent lorem himenaeos pretium dapibus tellus bibendum consequat ac duis",
+    "rating": 3
+  },
+  {
+    "user_id": "fc9a9284-fd42-49b1-a00a-17dbb53f218b",
+    "tour_id": "dea84aa4-8d2b-4deb-87ca-ddba2e656de4",
+    "review": "Blandit varius nascetur est felis praesent lorem himenaeos pretium dapibus tellus bibendum consequat ac duis",
+    "rating": 5
+  },
+  {
+    "user_id": "fc9a9284-fd42-49b1-a00a-17dbb53f218b",
+    "tour_id": "cc83baba-6a01-4c50-8a21-6de30b1b7476",
+    "review": "Iaculis mauris eget sed nec lobortis rhoncus montes etiam dapibus suspendisse hendrerit quam pellentesque potenti sapien!",
+    "rating": 5
+  },
+  {
+    "user_id": "fc9a9284-fd42-49b1-a00a-17dbb53f218b",
+    "tour_id": "82e23812-9a4c-405a-80fd-9caa67af7408",
+    "review": "Netus eleifend adipiscing ligula placerat fusce orci sollicitudin vivamus conubia.",
+    "rating": 5
+  },
+  {
+    "user_id": "fc9a9284-fd42-49b1-a00a-17dbb53f218b",
+    "tour_id": "17358bcf-9ead-4a16-acff-e3ebeef92694",
+    "review": "Eleifend suspendisse ultricies platea primis ut ornare purus vel taciti faucibus justo nunc",
+    "rating": 4
+  },
+  {
+    "user_id": "fc9a9284-fd42-49b1-a00a-17dbb53f218b",
+    "tour_id": "7b0dedf1-908a-4114-adbd-04b87816b9f1",
+    "review": "Malesuada consequat congue vel gravida eros conubia in sapien praesent diam!",
+    "rating": 4
+  },
+  {
+    "user_id": "fc9a9284-fd42-49b1-a00a-17dbb53f218b",
+    "tour_id": "1961b751-2eeb-441c-bff4-8bfab6dbbafb",
+    "review": "Curabitur maximus montes vestibulum nulla vel dictum cubilia himenaeos nunc hendrerit amet urna.",
+    "rating": 5
+  },
+  {
+    "user_id": "4abf0be8-f56c-4912-9047-d568d62c9c1d",
+    "tour_id": "93fea5d9-693c-40ac-b469-1ca8d6c1896c",
+    "review": "Curabitur maximus montes vestibulum nulla vel dictum cubilia himenaeos nunc hendrerit amet urna.",
+    "rating": 5
+  },
+  {
+    "user_id": "4abf0be8-f56c-4912-9047-d568d62c9c1d",
+    "tour_id": "d286a264-b808-4ff7-a3a9-6758ff23bd75",
+    "review": "Sociosqu eleifend tincidunt aenean condimentum gravida lorem arcu pellentesque felis dui feugiat nec.",
+    "rating": 5
+  },
+  {
+    "user_id": "4abf0be8-f56c-4912-9047-d568d62c9c1d",
+    "tour_id": "7b0dedf1-908a-4114-adbd-04b87816b9f1",
+    "review": "Ridiculus facilisis sem id aenean amet penatibus gravida phasellus a mus dui lacinia accumsan!!",
+    "rating": 1
+  },
+  {
+    "user_id": "4abf0be8-f56c-4912-9047-d568d62c9c1d",
+    "tour_id": "cc83baba-6a01-4c50-8a21-6de30b1b7476",
+    "review": "Venenatis molestie luctus cubilia taciti tempor faucibus nostra nisi curae integer.",
+    "rating": 5
+  },
+  {
+    "user_id": "4abf0be8-f56c-4912-9047-d568d62c9c1d",
+    "tour_id": "dea84aa4-8d2b-4deb-87ca-ddba2e656de4",
+    "review": "Tempor pellentesque eu placerat auctor enim nam suscipit tincidunt natoque ipsum est.",
+    "rating": 5
+  },
+  {
+    "user_id": "c4f336bd-a10a-419d-a8c3-ead907ace1e9",
+    "tour_id": "82e23812-9a4c-405a-80fd-9caa67af7408",
+    "review": "Tempor pellentesque eu placerat auctor enim nam suscipit tincidunt natoque ipsum est.",
+    "rating": 5
+  },
+  {
+    "user_id": "c4f336bd-a10a-419d-a8c3-ead907ace1e9",
+    "tour_id": "17358bcf-9ead-4a16-acff-e3ebeef92694",
+    "review": "Conubia semper efficitur rhoncus suspendisse taciti lectus ex sapien dolor molestie fusce class.",
+    "rating": 5
+  },
+  {
+    "user_id": "c4f336bd-a10a-419d-a8c3-ead907ace1e9",
+    "tour_id": "7b0dedf1-908a-4114-adbd-04b87816b9f1",
+    "review": "Conubia pharetra pulvinar libero hac class congue curabitur mi porttitor!!",
+    "rating": 5
+  },
+  {
+    "user_id": "c4f336bd-a10a-419d-a8c3-ead907ace1e9",
+    "tour_id": "d286a264-b808-4ff7-a3a9-6758ff23bd75",
+    "review": "Nullam felis dictumst eros nulla torquent arcu inceptos mi faucibus ridiculus pellentesque gravida mauris.",
+    "rating": 5
+  },
+  {
+    "user_id": "3c531db0-0d12-495b-9119-8dc5e1c0906f",
+    "tour_id": "cc83baba-6a01-4c50-8a21-6de30b1b7476",
+    "review": "Euismod suscipit ipsum efficitur rutrum dis mus dictumst laoreet lectus.",
+    "rating": 5
+  },
+  {
+    "user_id": "3c531db0-0d12-495b-9119-8dc5e1c0906f",
+    "tour_id": "82e23812-9a4c-405a-80fd-9caa67af7408",
+    "review": "Massa orci lacus suspendisse maximus ad integer donec arcu parturient facilisis accumsan consectetur non",
+    "rating": 4
+  },
+  {
+    "user_id": "3c531db0-0d12-495b-9119-8dc5e1c0906f",
+    "tour_id": "17358bcf-9ead-4a16-acff-e3ebeef92694",
+    "review": "Blandit varius finibus imperdiet tortor hendrerit erat rhoncus dictumst inceptos massa in.",
+    "rating": 5
+  },
+  {
+    "user_id": "3c531db0-0d12-495b-9119-8dc5e1c0906f",
+    "tour_id": "87785c0a-a6ce-4e7d-873d-374620818dcc",
+    "review": "Tristique semper proin pellentesque ipsum urna habitasse venenatis tincidunt morbi nisi at",
+    "rating": 4
+  },
+  {
+    "user_id": "3c531db0-0d12-495b-9119-8dc5e1c0906f",
+    "tour_id": "7b0dedf1-908a-4114-adbd-04b87816b9f1",
+    "review": "Potenti etiam placerat mi metus ipsum curae eget nisl torquent pretium",
+    "rating": 4
+  },
+  {
+    "user_id": "3c531db0-0d12-495b-9119-8dc5e1c0906f",
+    "tour_id": "1961b751-2eeb-441c-bff4-8bfab6dbbafb",
+    "review": "Molestie non montes at fermentum cubilia quis dis placerat maecenas vulputate sapien facilisis",
+    "rating": 5
+  },
+  {
+    "user_id": "3c531db0-0d12-495b-9119-8dc5e1c0906f",
+    "tour_id": "93fea5d9-693c-40ac-b469-1ca8d6c1896c",
+    "review": "Velit vulputate faucibus in nascetur praesent potenti primis pulvinar tempor",
+    "rating": 5
+  },
+  {
+    "user_id": "a38e12b9-1c39-4d8a-bd14-e184fe3a7842",
+    "tour_id": "dea84aa4-8d2b-4deb-87ca-ddba2e656de4",
+    "review": "Magna magnis tellus dui vivamus donec placerat vehicula erat turpis",
+    "rating": 5
+  },
+  {
+    "user_id": "a38e12b9-1c39-4d8a-bd14-e184fe3a7842",
+    "tour_id": "cc83baba-6a01-4c50-8a21-6de30b1b7476",
+    "review": "Ligula lorem taciti fringilla himenaeos ex aliquam litora nam ad maecenas sit phasellus lectus!!",
+    "rating": 5
+  },
+  {
+    "user_id": "a38e12b9-1c39-4d8a-bd14-e184fe3a7842",
+    "tour_id": "17358bcf-9ead-4a16-acff-e3ebeef92694",
+    "review": "Nam ultrices quis leo viverra tristique curae facilisi luctus sapien eleifend fames orci lacinia pulvinar.",
+    "rating": 4
+  },
+  {
+    "user_id": "a38e12b9-1c39-4d8a-bd14-e184fe3a7842",
+    "tour_id": "1961b751-2eeb-441c-bff4-8bfab6dbbafb",
+    "review": "Ullamcorper ac nec id habitant a commodo eget libero cras congue!",
+    "rating": 4
+  },
+  {
+    "user_id": "a38e12b9-1c39-4d8a-bd14-e184fe3a7842",
+    "tour_id": "d286a264-b808-4ff7-a3a9-6758ff23bd75",
+    "review": "Ultrices nam dui ex posuere velit varius himenaeos bibendum fermentum sollicitudin purus",
+    "rating": 5
+  },
+  {
+    "user_id": "68fecd26-2e15-456d-a372-8967d4855c0d",
+    "tour_id": "d286a264-b808-4ff7-a3a9-6758ff23bd75",
+    "review": "Ultrices nam dui ex posuere velit varius himenaeos bibendum fermentum sollicitudin purus",
+    "rating": 5
+  },
+  {
+    "user_id": "68fecd26-2e15-456d-a372-8967d4855c0d",
+    "tour_id": "93fea5d9-693c-40ac-b469-1ca8d6c1896c",
+    "review": "Vitae vulputate id quam metus orci cras mollis vivamus vehicula sapien et",
+    "rating": 2
+  },
+  {
+    "user_id": "68fecd26-2e15-456d-a372-8967d4855c0d",
+    "tour_id": "17358bcf-9ead-4a16-acff-e3ebeef92694",
+    "review": "Sem risus tempor auctor mattis netus montes tincidunt mollis lacinia natoque adipiscing",
+    "rating": 5
+  },
+  {
+    "user_id": "68fecd26-2e15-456d-a372-8967d4855c0d",
+    "tour_id": "cc83baba-6a01-4c50-8a21-6de30b1b7476",
+    "review": "Feugiat egestas ac pulvinar quis dui ligula tempor ad platea quisque scelerisque!",
+    "rating": 5
+  },
+  {
+    "user_id": "68fecd26-2e15-456d-a372-8967d4855c0d",
+    "tour_id": "7b0dedf1-908a-4114-adbd-04b87816b9f1",
+    "review": "Quisque egestas faucibus primis ridiculus mi felis tristique curabitur habitasse vehicula",
+    "rating": 4
+  }
+]
