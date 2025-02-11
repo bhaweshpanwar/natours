@@ -19,7 +19,7 @@ const insertLocation = async (location, toursId = null) => {
     INSERT INTO public."locations" 
     ("type", "coordinates", "description", "address", "tours_id")
     VALUES 
-    ($1, ST_GeographyFromText($2), $3, $4, $5)
+    ($1, ST_SetSRID(ST_GeomFromText($2), 4326), $3, $4, $5)
     RETURNING id;
   `;
   const values = [
