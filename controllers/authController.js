@@ -12,7 +12,7 @@ const Email = require('./../utils/email');
 const pool = require('../db');
 const { userSchema } = require('./../validations/userValidations');
 
-const createSendToken = (user, statusCode, res, sendUserData = true) => {
+const createSendToken = (user, statusCode, req,res, sendUserData = true) => {
   const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET, {
     expiresIn: process.env.JWT_EXPIRES_IN,
   });
@@ -22,9 +22,10 @@ const createSendToken = (user, statusCode, res, sendUserData = true) => {
       Date.now() + process.env.JWT_COOKIE_EXPIRES_IN * 24 * 60 * 60 * 1000
     ),
     httpOnly: true,
+    secure: req.secure || req.headers['x-forwarded-proto'] === 'https'
   };
 
-  if (process.env.NODE_ENV === 'production') cookieOptions.secure = true;
+  // if (req.secure || req.headers('x-forwarded-proto') === 'https') cookieOptions.secure = true;
 
   res.cookie('V3wD5zX9pA6nQ4', token, cookieOptions);
   const response = {
@@ -94,7 +95,7 @@ exports.signup = catchAsync(async (req, res, next) => {
   // console.log(url);
   await new Email(result, url).sendWelcome();
 
-  createSendToken(result, 201, res);
+  createSendToken(result, 201, req,res);
 
   // // Generate JWT token
   // const token = jwt.sign({ id: result.rows[0].id }, process.env.JWT_SECRET, {
@@ -167,7 +168,7 @@ exports.login = catchAsync(async (req, res, next) => {
     return next(new AppError('Incorrect Credentials', 404));
   }
 
-  createSendToken(user, 200, res, false);
+  createSendToken(user, 200, req,res, false);
 });
 
 exports.logout = (req, res) => {
@@ -315,7 +316,7 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
   const updateValues = [hashedPassword, user.id];
   await pool.query(updateQuery, updateValues);
 
-  createSendToken(user, 200, res, false);
+  createSendToken(user, 200, req,res, false);
 });
 
 exports.updatePassword = catchAsync(async (req, res, next) => {
@@ -383,7 +384,7 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
   await pool.query(updateQuery, updateValues);
 
   // 7. Send a new token to the user
-  createSendToken(currentUser, 200, res, false);
+  createSendToken(currentUser, 200, req,res, false);
 });
 
 // Only for rendered pages, no errors!
