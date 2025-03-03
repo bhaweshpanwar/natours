@@ -5,8 +5,13 @@ dotenv.config({ path: './config.env' });
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_STRING,
-  keepAlive: true, // Enable keep-alive
-  idleTimeoutMillis: 10000, // Close idle connections after 10 seconds
+  ssl: {
+    rejectUnauthorized: false,
+  },
+  max: 10,
+  keepAlive: true,
+  idleTimeoutMillis: 10000,
+  connectionTimeoutMillis: 5000,
 });
 
 /*user: process.env.DB_USER,
@@ -21,7 +26,6 @@ pool.on('connect', () => {
 
 pool.on('error', (err) => {
   console.error('Unexpected error on idle client', err);
-  // Optionally, you can exit the process or attempt to reconnect here
 });
 
 module.exports = pool;

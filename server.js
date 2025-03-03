@@ -8,8 +8,9 @@ const port = process.env.APP_PORT;
 
 app.listen(port, async () => {
   try {
-    await pool.connect(); // Test the database connection
+    const client = await pool.connect();
     console.log('Database connected successfully.');
+    client.release();
     console.log(`🚀 Server started on port ${port}`);
   } catch (error) {
     console.error('Unable to connect to the database:', error);
@@ -18,5 +19,15 @@ app.listen(port, async () => {
 });
 
 process.on('unhandledRejection', (err) => {
+  console.log('UNHANDLED REJECTION! Shutting down...');
   console.log(err.name, err.message);
+  process.exit(1);
+});
+
+process.on('SIGTERM', () => {
+  console.log('SIGTERM RECEIVED. Shutting down gracefully...');
+  pool.end(() => {
+    console.log('Database pool closed.');
+    process.exit(0);
+  });
 });
