@@ -40,9 +40,9 @@ A professional and production-ready full-stack tour booking application built us
 
 ## 📸 Screenshots
 
-![Homepage](screenshots/homepage.png)
-![Login](screenshots/tour-details.png)
-![Map Box](screenshots/payment-flow.png)
+![Homepage](screenshots/Screenshot (100).png)
+![Login](screenshots/Screenshot (101).png)
+![Map Box](screenshots/Screenshot (102).png)
 
 ---
 
