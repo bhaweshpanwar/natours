@@ -218,7 +218,8 @@ body {
 .header__logo img {
   height: 3.8rem;
   display: block;
-  filter: drop-shadow(0 2px 8px rgba(194, 89, 63, 0.15));
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.85))
+          drop-shadow(0 2px 8px rgba(194, 89, 63, 0.15));
 }
 
 .header.header--scrolled .header__logo {
