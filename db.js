@@ -5,7 +5,7 @@ dotenv.config({ path: './config.env' });
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_STRING,
-  ssl: {
+  ssl: (process.env.DATABASE_STRING.includes('localhost') || process.env.DATABASE_STRING.includes('127.0.0.1')) ? false : {
     rejectUnauthorized: false,
   },
   max: 10,

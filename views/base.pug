@@ -6,7 +6,9 @@ html
       meta(name='viewport' content='width=device-width, initial-scale=1.0')
       link(rel='stylesheet' href='/css/style.css')
       link(rel='shortcut icon' type='image/png' href='/img/favicon.png')
-      link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,300i,700')
+      link(rel='preconnect' href='https://fonts.googleapis.com')
+      link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin)
+      link(rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap')
       title Natours | #{title}
   
   body
@@ -28,3 +30,14 @@ html
     //- script(src='/js/bundle.js')
     script(src='https://js.stripe.com/v3/')
     script(src='/js/index.js')
+    script.
+      window.addEventListener('scroll', () => {
+        const header = document.querySelector('.header');
+        if (header) {
+          if (window.scrollY > 20) {
+            header.classList.add('header--scrolled');
+          } else {
+            header.classList.remove('header--scrolled');
+          }
+        }
+      });
