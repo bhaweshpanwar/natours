@@ -47,6 +47,11 @@
 
   /* Layout Slant */
   --section-rotate: 6vw;
+
+  /* Type Scale */
+  --text-card-title: 2.6rem;
+  --text-section: 2.2rem;
+  --text-hero: 5.5rem;
 }
 
 /* ==========================================================================
@@ -450,8 +455,8 @@ body {
 .heading-tertirary span {
   font-family: var(--font-serif);
   font-size: var(--text-card-title);
-  font-weight: 300;
-  letter-spacing: 0.05rem;
+  font-weight: 700;
+  letter-spacing: 0.02rem;
   color: var(--color-white);
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   background: none !important;
@@ -626,7 +631,7 @@ body {
 .heading-primary {
   color: var(--color-text-light);
   text-transform: none;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 .heading-primary span {
@@ -649,11 +654,11 @@ body {
 
 .heading-box__detail {
   font-family: var(--font-mono);
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
-  color: var(--color-text-medium);
+  color: var(--color-text-light);
   display: flex;
   align-items: center;
 }
